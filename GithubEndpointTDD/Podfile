@@ -10,7 +10,7 @@ target 'GithubEndpointTDD' do
     pod 'RxCocoa', '~> 4.0'
     pod 'Moya/RxSwift', '~> 13.0'
     pod 'Alamofire'
-    pod "RxRealm"
+    pod 'RxRealm'
     pod 'MJRefresh'
     
   target 'GithubEndpointTDDTests' do
