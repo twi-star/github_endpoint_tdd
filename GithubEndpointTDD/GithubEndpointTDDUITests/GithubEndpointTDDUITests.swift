@@ -26,17 +26,16 @@ class GithubEndpointTDDUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+        
+        _ = app.wait(for: .runningBackground, timeout: 3)
+        let oldTitle = app.navigationBars.staticTexts
+        _ = app.wait(for: .runningForeground, timeout: 7)
+        let newTitle = app.navigationBars.staticTexts
+        XCTAssertTrue(oldTitle != newTitle, "未完成首页endpoint数据刷新")
+        
+        app.navigationBars.buttons["HISTORY"].tap()
+        app.swipeDown()
+        _ = app.wait(for: .runningBackground, timeout: 7)
+        app.terminate()
     }
 }
