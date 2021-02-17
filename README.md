@@ -32,8 +32,21 @@ B. 需求中用户事件
 
 #### 4. 编写测试案例
 见单元测试类
-
-#### 5. 完成效果
+#### 5. 开发出现的异常
+A. 文件引用路径问题
+![文件路径错误情况](./ScreenShot/file_path_error_state.png)
+![文件路径错误原因](./ScreenShot/file_path_error.png)
+**属于git问题，开发了两次问题依旧一样，后面查找项目配置文件才发现是采用了绝对路径。前期走了不少弯路，以为是.gitignore文件问题**
+--
+B. 第三方库链接（link）问题
+![RxRealm.o link错误情况](./ScreenShot/file_path_error_state.png)
+![RxRealm.o link错误原因](./ScreenShot/rxrealm_link_error.png)
+**属于pod或者realm问题吧，暂不情况。开发了两次问题依旧一样，后面查找项目配置文件才发现多处描述了RxRealm链接路径导致异常。前期走了不少弯路，以为是证书问题和pod install问题，但也时而有效（删除xcodeworkspace文件和pods文件，重新pod install）**
+--
+#### 6. 完成效果
 ![endpoint数据展示页](./ScreenShot/EndpointScreen.png)
 
 ![endpoint请求历史页](./ScreenShot/HistoryScreen.png)
+
+#### 7. 总结
+感谢这次机会，不管结果如何还是收获很多。重新重温了RxSwift、单元测试、UI测试以及Git flow等。特别是上面遇到的两个异常，前期尝试了很多方法，最后发现还是得需要静下来从项目配置文件中入手，最终解决...
