@@ -10,7 +10,7 @@ import RxSwift
 import RxRealm
 import RealmSwift
 import RxBlocking
-@testable import MougiTDD
+@testable import GithubEndpointTDD
 
 class DataManagerTests: XCTestCase {
     
@@ -90,6 +90,7 @@ class DataManagerTests: XCTestCase {
         // then
     }
 
+    // FIXME: - 第一次启动时可能会出现超时错误
     func testBeginInterval5sRequest() throws {
         // 删除数据库
         let realm = try! Realm()

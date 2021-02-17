@@ -9,6 +9,7 @@ import Moya
 import RxRealm
 import RealmSwift
 import RxSwift
+import RxCocoa
 
 /// 错误类型（包含网络请求、数据库数据获取等错误）
 internal enum DataError: Error {
