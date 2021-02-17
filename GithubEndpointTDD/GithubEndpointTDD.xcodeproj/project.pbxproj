@@ -63,17 +63,17 @@
 		B90419AA25DC3F5300ADBA8A /* GithubEndpointTDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubEndpointTDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90419AE25DC3F5300ADBA8A /* GithubEndpointTDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubEndpointTDDUITests.swift; sourceTree = "<group>"; };
 		B90419B025DC3F5300ADBA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9041A2025DC514E00ADBA8A /* DataManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManagerTests.swift; path = DataManagerTests.swift; sourceTree = "<group>"; };
-		B9041A2825DC516900ADBA8A /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GithubAPI.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
-		B9041A2D25DC517E00ADBA8A /* Date_Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Date_Ex.swift; path = Date_Ex.swift; sourceTree = "<group>"; };
-		B9041A3225DC518E00ADBA8A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		B9041A3725DC51ED00ADBA8A /* NetObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetObject.swift; path = NetObject.swift; sourceTree = "<group>"; };
-		B9041A3825DC51ED00ADBA8A /* EndpointModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndpointModel.swift; path = EndpointModel.swift; sourceTree = "<group>"; };
+		B9041A2025DC514E00ADBA8A /* DataManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagerTests.swift; sourceTree = "<group>"; };
+		B9041A2825DC516900ADBA8A /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
+		B9041A2D25DC517E00ADBA8A /* Date_Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date_Ex.swift; sourceTree = "<group>"; };
+		B9041A3225DC518E00ADBA8A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		B9041A3725DC51ED00ADBA8A /* NetObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetObject.swift; sourceTree = "<group>"; };
+		B9041A3825DC51ED00ADBA8A /* EndpointModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointModel.swift; sourceTree = "<group>"; };
 		B9457CF925DCB04500584145 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9457CFB25DCB04A00584145 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9457CFD25DCB05000584145 /* RxRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9457DC025DCC11E00584145 /* GithubEndpointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GithubEndpointViewController.swift; path = GithubEndpointViewController.swift; sourceTree = "<group>"; };
-		B9457DDA25DCC59900584145 /* EndpointHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndpointHistoryViewController.swift; path = EndpointHistoryViewController.swift; sourceTree = "<group>"; };
+		B9457DC025DCC11E00584145 /* GithubEndpointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubEndpointViewController.swift; sourceTree = "<group>"; };
+		B9457DDA25DCC59900584145 /* EndpointHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointHistoryViewController.swift; sourceTree = "<group>"; };
 		C1A5735EABCF3D120C4333FB /* Pods-GithubEndpointTDDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubEndpointTDDTests.release.xcconfig"; path = "Target Support Files/Pods-GithubEndpointTDDTests/Pods-GithubEndpointTDDTests.release.xcconfig"; sourceTree = "<group>"; };
 		C81852D7CFF4AB9CF5878A81 /* Pods-GithubEndpointTDD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubEndpointTDD.debug.xcconfig"; path = "Target Support Files/Pods-GithubEndpointTDD/Pods-GithubEndpointTDD.debug.xcconfig"; sourceTree = "<group>"; };
 		CE0C90F552E596832201A048 /* Pods-GithubEndpointTDD-GithubEndpointTDDUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubEndpointTDD-GithubEndpointTDDUITests.debug.xcconfig"; path = "Target Support Files/Pods-GithubEndpointTDD-GithubEndpointTDDUITests/Pods-GithubEndpointTDD-GithubEndpointTDDUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -675,6 +675,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C81852D7CFF4AB9CF5878A81 /* Pods-GithubEndpointTDD.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -698,6 +699,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 899551F60C3E6F4B8953058B /* Pods-GithubEndpointTDD.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
