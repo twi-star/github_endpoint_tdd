@@ -33,3 +33,7 @@ B. 需求中用户事件
 #### 4. 编写测试案例
 见单元测试类
 
+#### 5. 完成效果
+![endpoint数据展示页](./ScreenShot/EndpointScreen.png)
+
+![endpoint请求历史页](./ScreenShot/HistoryScreen.png)
