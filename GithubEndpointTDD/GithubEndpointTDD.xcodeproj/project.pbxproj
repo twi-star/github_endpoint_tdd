@@ -23,6 +23,7 @@
 		B9041A3325DC518E00ADBA8A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9041A3225DC518E00ADBA8A /* DataManager.swift */; };
 		B9041A3925DC51ED00ADBA8A /* NetObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9041A3725DC51ED00ADBA8A /* NetObject.swift */; };
 		B9041A3A25DC51ED00ADBA8A /* EndpointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9041A3825DC51ED00ADBA8A /* EndpointModel.swift */; };
+		B9457DC125DCC11E00584145 /* GithubEndpointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9457DC025DCC11E00584145 /* GithubEndpointViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		B9457CF925DCB04500584145 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9457CFB25DCB04A00584145 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9457CFD25DCB05000584145 /* RxRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9457DC025DCC11E00584145 /* GithubEndpointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GithubEndpointViewController.swift; path = ../../../../../julian/github_endpoint_tdd/GithubEndpointTDD/GithubEndpointTDD/ScreenViewController/GithubEndpointViewController.swift; sourceTree = "<group>"; };
 		C1A5735EABCF3D120C4333FB /* Pods-GithubEndpointTDDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubEndpointTDDTests.release.xcconfig"; path = "Target Support Files/Pods-GithubEndpointTDDTests/Pods-GithubEndpointTDDTests.release.xcconfig"; sourceTree = "<group>"; };
 		C81852D7CFF4AB9CF5878A81 /* Pods-GithubEndpointTDD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubEndpointTDD.debug.xcconfig"; path = "Target Support Files/Pods-GithubEndpointTDD/Pods-GithubEndpointTDD.debug.xcconfig"; sourceTree = "<group>"; };
 		CE0C90F552E596832201A048 /* Pods-GithubEndpointTDD-GithubEndpointTDDUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubEndpointTDD-GithubEndpointTDDUITests.debug.xcconfig"; path = "Target Support Files/Pods-GithubEndpointTDD-GithubEndpointTDDUITests/Pods-GithubEndpointTDD-GithubEndpointTDDUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 		B90419E725DC47A100ADBA8A /* ScreenViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B9457DC025DCC11E00584145 /* GithubEndpointViewController.swift */,
 			);
 			path = ScreenViewController;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9457DC125DCC11E00584145 /* GithubEndpointViewController.swift in Sources */,
 				B9041A3A25DC51ED00ADBA8A /* EndpointModel.swift in Sources */,
 				B9041A3325DC518E00ADBA8A /* DataManager.swift in Sources */,
 				B9041A3925DC51ED00ADBA8A /* NetObject.swift in Sources */,
