@@ -28,7 +28,7 @@
         <!--Github Endpoint View Controller-->
         <scene sceneID="0Yj-6S-Bkv">
             <objects>
-                <viewController restorationIdentifier="GithubEndpointViewController" id="Kfw-gO-B44" customClass="GithubEndpointViewController" customModule="GithubEndpointTDD" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Kfw-gO-B44" customClass="GithubEndpointViewController" customModule="GithubEndpointTDD" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DNu-PF-KnQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,7 +91,7 @@
         <!--Endpoint History View Controller-->
         <scene sceneID="CvP-oz-Ubs">
             <objects>
-                <viewController restorationIdentifier="EndpointHistoryViewController" id="p3s-KF-s6u" customClass="EndpointHistoryViewController" customModule="GithubEndpointTDD" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="p3s-KF-s6u" customClass="EndpointHistoryViewController" customModule="GithubEndpointTDD" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aTg-53-RbU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
