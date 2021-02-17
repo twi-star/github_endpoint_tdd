@@ -63,15 +63,12 @@
 		B90419AA25DC3F5300ADBA8A /* GithubEndpointTDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubEndpointTDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90419AE25DC3F5300ADBA8A /* GithubEndpointTDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubEndpointTDDUITests.swift; sourceTree = "<group>"; };
 		B90419B025DC3F5300ADBA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B90419EE25DC484900ADBA8A /* RxRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9041A2025DC514E00ADBA8A /* DataManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManagerTests.swift; path = DataManagerTests.swift; sourceTree = "<group>"; };
 		B9041A2825DC516900ADBA8A /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GithubAPI.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
 		B9041A2D25DC517E00ADBA8A /* Date_Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Date_Ex.swift; path = Date_Ex.swift; sourceTree = "<group>"; };
 		B9041A3225DC518E00ADBA8A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		B9041A3725DC51ED00ADBA8A /* NetObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetObject.swift; path = NetObject.swift; sourceTree = "<group>"; };
 		B9041A3825DC51ED00ADBA8A /* EndpointModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndpointModel.swift; path = EndpointModel.swift; sourceTree = "<group>"; };
-		B9457CEB25DCAF3800584145 /* RxRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9457CF025DCAF5100584145 /* RxRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9457CF925DCB04500584145 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9457CFB25DCB04A00584145 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9457CFD25DCB05000584145 /* RxRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
