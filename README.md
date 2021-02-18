@@ -1,4 +1,4 @@
-
+注：pod install后如果出现RxRealm.o link错误的话，重新删掉.xcworkspace和Pods目录，再pod install一次就可以了。
 ## 介绍
 尝试使用TDD模式开发
 
