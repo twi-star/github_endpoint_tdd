@@ -39,7 +39,7 @@ A. 文件引用路径问题
 **属于git问题，开发了两次问题依旧一样，后面查找项目配置文件才发现是采用了绝对路径。前期走了不少弯路，以为是.gitignore文件问题**
 --
 B. 第三方库链接（link）问题
-![RxRealm.o link错误情况](./ScreenShot/file_path_error_state.png)
+![RxRealm.o link错误情况](./ScreenShot/frxrealm_link_error_state.png)
 ![RxRealm.o link错误原因](./ScreenShot/rxrealm_link_error.png)
 **属于pod或者realm问题吧，暂不情况。开发了两次问题依旧一样，后面查找项目配置文件才发现多处描述了RxRealm链接路径导致异常。前期走了不少弯路，以为是证书问题和pod install问题，但也时而有效（删除xcodeworkspace文件和pods文件，重新pod install）**
 --
